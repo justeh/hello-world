@@ -42,7 +42,7 @@ spec:
           value: World
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: index.docker.io/mmonroe/hello-world-mmonroe@sha256:ab194afc73348d7755b5c66e633032ad0219dfee188a3693d7f4088777119d7a
+        image: index.docker.io/mmonroe/hello-world-mmonroe@sha256:5c3c3f478ed55d7bfef9b119f8cac90ad68bff0e61884ecfd52425e25ebea09c
         livenessProbe:
           httpGet:
             path: /livez
