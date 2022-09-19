@@ -1,4 +1,4 @@
-NAMESPACE:=dev
+NAMESPACE:=justeh
 
 .PHONY: source
 source: deploy-source
