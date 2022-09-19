@@ -1,4 +1,4 @@
-NAMESPACE:=mmonroe
+NAMESPACE:=dev
 
 .PHONY: source
 source: deploy-source
