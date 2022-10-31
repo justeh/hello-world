@@ -30,13 +30,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/androidx.appcompat/appcompat -->
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 		<dependency>
-			<groupId>androidx.appcompat</groupId>
-			<artifactId>appcompat</artifactId>
-			<version>1.5.1</version>
-			<scope>runtime</scope>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.6</version>
 		</dependency>
+
 
 
 
