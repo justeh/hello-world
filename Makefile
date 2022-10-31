@@ -17,5 +17,4 @@ get:
 
 .PHONY: deploy-source
 deploy-source:
-	tanzu apps workload delete hello-world -n $(NAMESPACE) -y
 	tanzu apps workload apply -f config/workload.yaml -y -n $(NAMESPACE)
