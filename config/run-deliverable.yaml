@@ -3,6 +3,8 @@ kind: App
 metadata:
   name: hello-world.app
   namespace: workloads
+  annotations:
+    kapp.k14s.io/update-strategy: always-replace
 spec:
   serviceAccountName: default
   fetch:
