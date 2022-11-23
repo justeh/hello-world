@@ -1,7 +1,7 @@
 apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
-  name: delivery-gitops 
+  name: hello-world.app
   namespace: workloads
 spec:
   serviceAccountName: default
