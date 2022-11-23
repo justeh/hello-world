@@ -1,7 +1,7 @@
 apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
-  name: hello-world.app
+  name: hello-world
   namespace: workloads
   annotations:
     kapp.k14s.io/update-strategy: always-replace
