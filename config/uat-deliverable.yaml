@@ -1,0 +1,17 @@
+apiVersion: carto.run/v1alpha1
+kind: Deliverable
+metadata:
+  name: hello-world
+  namespace: workloads
+  labels:
+    app.kubernetes.io/part-of: hello-world
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/component: deliverable
+    app.tanzu.vmware.com/deliverable-type: web
+spec:
+  source:
+    git:
+      url: https://github.com/justeh/tap-gitops.git
+      ref:
+        branch: main
+    subPath: config/workloads/hello-world
