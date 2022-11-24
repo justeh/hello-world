@@ -2,6 +2,8 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: hello-world
+  annotations:
+    kapp.k14s.io/update-strategy: always-replace
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: hello-world
