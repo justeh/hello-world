@@ -1,4 +1,4 @@
-NAMESPACE:=workloads
+NAMESPACE:=justeh
 
 .PHONY: source
 source: deploy-source
