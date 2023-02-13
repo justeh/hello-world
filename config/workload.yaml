@@ -5,6 +5,7 @@ metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: hello-world
+    apps.tanzu.vmware.com/auto-configure-actuators: "true"
 #     apps.tanzu.vmware.com/has-tests: "true"
 spec:
   env:
@@ -23,5 +24,9 @@ spec:
   source:
     git:
       url: https://github.com/justeh/hello-world
+      ref:
+        branch: main
+
+
 #       ref:
 #         tag: v1.1.0
