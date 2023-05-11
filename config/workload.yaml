@@ -11,6 +11,8 @@ spec:
   env:
   - name: APP_MESSAGE
     value: World
+  - name: BP_JVM_VERSION
+    value: 8
   params:
   - name: annotations
     value:
