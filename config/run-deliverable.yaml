@@ -25,5 +25,5 @@ spec:
     git:
       ref:
         branch: main
-      url: https://github.com/vmware-tanzu-labs/hkjc-workloads-gitops.git
+      url: https://github.com/justeh-org/hkjc-tap-gitops.git
     subPath: config/workloads/hello-world
