@@ -13,7 +13,7 @@ spec:
   - name: APP_MESSAGE
     value: World
   - name: BP_JVM_VERSION
-    value: 8
+    value: "8"
   params:
   - name: annotations
     value:
@@ -24,6 +24,10 @@ spec:
 #     value: justeh
 #   - name: gitops_repository_name
 #     value: tap-gitops
+  - name: testing_pipeline_matching_labels
+    value:
+      apps.tanzu.vmware.com/pipeline: test
+      apps.tanzu.vmware.com/language: java
   source:
     git:
       url: https://github.com/justeh/hello-world
